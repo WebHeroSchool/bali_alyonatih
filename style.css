@@ -1,0 +1,33 @@
+* {
+
+}
+body {
+	font-family: 'Museo Sans Cyrl';
+	font-weight: normal;
+	font-style: normal;
+	color: #F8EEE4;
+	background-image: url(images/iswanto-arif-448003-unsplash.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+header {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu__item {
+	color: #F8EEE4;
+	font-size: 16px;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.info-box__title {
+	font-family: 'PT Serif Bold';
+	font-weight: bold;
+	font-style: normal;
+}
