@@ -105,6 +105,7 @@ main {
 .image-box__pic-start {
 	background-image: url(images/pic1.png);
 	width: 36%;
+	background-position: center;
 }
 
 .image-box__pic-medium {
