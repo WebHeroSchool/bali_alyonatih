@@ -1,33 +1,121 @@
-* {
-
+body, h1, h2, p {
+	margin: 0;
 }
+
 body {
 	font-family: 'Museo Sans Cyrl';
 	font-weight: normal;
 	font-style: normal;
 	color: #F8EEE4;
-	background-image: url(images/iswanto-arif-448003-unsplash.png);
+	background-image: url(images/body-bckgrnd.png);
 	background-repeat: no-repeat;
 	height: 100vh;
 }
+
 header {
 	display: flex;
-    align-items: center;
-    justify-content: space-around;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 4.5%;
+	padding-left: 4.5%;
+	width: 83%;
+	margin: 0 auto;
+	margin-bottom: 7%;
 }
+
+.menu {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 39%;
+	justify-content: space-between;
+}
+
 .menu__item {
 	color: #F8EEE4;
-	font-size: 16px;
+	font-size: 22px;
 	text-decoration: none;
+	white-space: nowrap;
 }
+
 main {
 	display: flex;
 	align-items: center;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
+
+.info-box {
+	width: 50%;
+	padding-left: 8.5%;
+}
+
+.info-box__wrap {
+	position: relative;
+	margin-bottom: 1%;
+	padding-left: 4%;
+}
+
+.info-box__subtitle {
+	font-size: 98px;
+	position: absolute;
+	bottom: 3%;
+	font-family: 'PT Serif';
+	left: 13%;
+}
+
 .info-box__title {
-	font-family: 'PT Serif Bold';
+	font-family: 'PT Serif';
 	font-weight: bold;
 	font-style: normal;
+	font-size: 280px;
+	opacity: 0.5;
+}
+
+.info-box__text {
+	width: 29vw;
+	font-size: 22px;
+	padding-left: 6%;
+	margin-bottom: 4%;
+}
+
+.info-box__btn {
+	margin-right: 42%;
+	margin-left: 6%;
+	padding: 4vh 23vh;
+	border-radius: 32px;
+	font-size: 22px;
+	color: #ffffff;
+	background-color: #d4bea3;
+}
+
+.image-box {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 4.5%;
+}
+
+.image-box__img {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 421px;
+}
+
+.image-box__pic-start {
+	background-image: url(images/pic1.png);
+	width: 36%;
+}
+
+.image-box__pic-medium {
+	background-image: url(images/pic2.png);
+	width: 33%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.image-box__pic-end {
+	background-image: url(images/pic3.png);
+	width: 24%;
+	background-position: center;
 }
