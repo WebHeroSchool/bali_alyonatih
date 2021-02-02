@@ -9,6 +9,7 @@ body {
 	color: #F8EEE4;
 	background-image: url(images/body-bckgrnd.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
 }
 
