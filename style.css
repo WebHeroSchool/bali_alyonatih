@@ -1,0 +1,426 @@
+body, h1, h2, p {
+	margin: 0;
+}
+
+body {
+	font-family: 'Museo Sans Cyrl';
+	font-weight: normal;
+	font-style: normal;
+	color: #F8EEE4;
+	background-image: url(images/body-bckgrnd.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 4.5%;
+	padding-left: 10.5%;
+	margin: 0 auto;
+	margin-bottom: 7%;
+	padding-right: 13.5%;
+}
+
+.logo {
+	background-image: url(images/Vector.svg);
+	background-repeat: no-repeat;
+	height: 11vh;
+	width: 9%;
+	background-position: center;
+	background-size: contain;
+	max-height: 54px;
+}
+
+.menu {
+	white-space: nowrap;
+}
+
+.menu__item {
+	color: #F8EEE4;
+	font-size: 22px;
+	text-decoration: none;
+	white-space: nowrap;
+	margin-right: 10%;
+}
+
+.menu-burger {
+	display: none;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.info-box {
+	width: 50%;
+	padding-left: 8.5%;
+}
+
+.info-box__wrap {
+	position: relative;
+	margin-bottom: 2%;
+	padding-left: 4%;
+}
+
+.info-box__subtitle {
+	font-size: 5.1vw;
+	position: absolute;
+	bottom: 3%;
+	font-family: 'PT Serif';
+	left: 13%;
+}
+
+.info-box__title {
+	font-family: 'PT Serif';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14.7vw;
+	opacity: 0.5;
+}
+
+.info-box__text {
+	width: 27.8vw;
+	font-size: 1.1vw;
+	padding-left: 7%;
+	margin-bottom: 4%;
+}
+
+.info-box__btn {
+	margin-right: 42%;
+	margin-left: 6.5%;
+	padding: 2% 10.5%;
+	border-radius: 32px;
+	font-size: 22px;
+	color: #ffffff;
+	background-color: #d4bea3;
+	white-space: nowrap;
+	border: none;
+}
+
+.image-box {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 4.5%;
+}
+
+.image-box__img {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 421px;
+}
+
+.image-box__pic-start {
+	background-image: url(images/pic1.png);
+	width: 36%;
+	background-position: center;
+}
+
+.image-box__pic-medium {
+	background-image: url(images/pic2.png);
+	width: 33%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.image-box__pic-end {
+	background-image: url(images/pic3.png);
+	width: 24%;
+	background-position: center;
+}
+
+#checkbox_id {
+	display: none;
+}
+
+@media (max-width: 1366px) {
+
+	header {
+		margin: 0 auto;
+		margin-bottom: 4%;
+		padding-right: 12.5%;
+	}
+
+	.logo {
+		width: 36%;
+		height: 5vh;
+		width: 10%;
+		background-position: center;
+		background-size: contain;
+		max-height: 39px;
+	}
+
+	.menu__item {
+		font-size: 16px;
+		margin-right: 8%;
+	}
+
+	.info-box__wrap {
+		margin-bottom: 1%;
+	}
+
+	.info-box__subtitle {
+		font-size: 70px;
+		left: 14%;
+	}
+
+	.info-box__title {
+		font-size: 200px;
+	}
+
+	.info-box__text {
+		font-size: 16px;
+		width: 28.8vw;
+		margin-bottom: 4%;
+	}
+
+	.info-box__btn {
+		margin-right: 42%;
+		margin-left: 6.5%;
+		padding: 2% 10.5%;
+		font-size: 16px;
+
+	}
+}
+
+@media (max-width: 1024px) {
+
+	header {
+		padding-right: 12%;
+		padding-left: 0%;
+		padding-top: 5.5%;
+		padding-bottom: 1.5%;
+	}
+
+	.logo {
+		width: 20%;
+	}
+
+	.info-box {
+		padding-left: 2%;
+		width: 48%;
+	}
+
+	.info-box__wrap {
+		margin-bottom: 2%;
+	}
+
+	.info-box__subtitle {
+		left: 16%;
+	}
+
+	.info-box__text {
+		width: 80%;
+		margin-bottom: 5%;
+	}
+
+	.info-box__btn {
+		padding: 2.5% 13%;
+	}
+
+	.image-box {
+		width: 50%;
+		padding-top: 6%;
+		position: relative;
+	}
+
+	.image-box__pic-start {
+		width: 51%;
+		max-height: 300px;
+		margin-right: 5%;
+	}
+
+	.image-box__pic-medium {
+		margin-right: 5%;
+		width: 45%;
+	}
+
+	.image-box__pic-end {
+		width: 8%;
+		height: 270px;
+		background-size: cover;
+		border-radius: 3px 0 0 3px;
+	}
+}
+
+@media (max-width: 870px) {
+	main {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.info-box {
+    width: 100%;
+	}
+	.image-box {
+		display: none;
+	}
+	.info-box__subtitle {
+		left: 38%;
+	}
+	.info-box__btn {
+		margin: 0;
+	}
+}
+
+@media (max-width: 470px) {
+	.menu {
+		display: none;
+	}
+
+	.menu__burger {
+		position: relative;
+		width: 25px;
+		height: 17px;
+		cursor: pointer;
+	}
+
+	.menu__burger::before,
+	.menu__burger::after {
+		content: "";
+		width: 25px;
+		height: 3px;
+		background-color: #ffffff;
+		position: absolute;
+		transition: .3s ease;
+	}
+
+	.menu__burger::before {
+		top: 27%;
+	}
+
+	.menu__burger::after {
+		top: 110%;
+	}
+
+	#checkbox_id ~ label {
+		padding-right: 10%;
+		z-index: 2;
+		position: relative;
+	}
+
+	.burger__line{
+		position: absolute;
+		display: block;
+		width: 25px;
+		height: 3px;
+		background-color: #ffffff;
+		top: 70%;
+		left: 0;
+	}
+
+	.menu-burger {
+		display: block;
+	}
+
+	.menu__item {
+		text-transform: lowercase;
+		margin-bottom: 6.5%;
+		font-size: 30px;
+		padding-left: 10%;
+	}
+
+	#checkbox_id:checked ~ .menu {
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+	  background-color: #ffffff;
+	  z-index: 1;
+	  align-items: center;
+	  top: 0;
+	  left: 0;
+	  padding-top: 18%;
+	}
+
+	#checkbox_id:checked ~ .menu > .menu__item {
+	  color: #000000;
+	}
+
+	#checkbox_id:checked ~ label > .menu__burger > .burger__line {
+	  display: none;
+	}
+
+	#checkbox_id:checked ~ label > .menu__burger::before, #checkbox_id:checked ~ label > .menu__burger::after {
+		top: 7px;
+		background-color: #000000;
+		z-index: 2;
+		position: absolute;
+		top: -13px;
+		left: 9px;
+	}
+
+	#checkbox_id:checked ~ label > .menu__burger::before {
+		transform: rotate(45deg);
+	}
+
+	#checkbox_id:checked ~ label > .menu__burger::after {
+	 	transform: rotate(-45deg);
+	}
+
+	.info-box__subtitle {
+		left: 20%;
+	}
+}
+
+@media (max-width: 375px) {
+	body {
+		background-image: url(images/mobile-bck.png);
+	}
+
+	header {
+		padding: 11% 0 0 11%;
+		margin-bottom: 16%;
+	}
+
+	.logo {
+		width: 104px;
+		background-size: contain;
+		height: 39px;
+	}
+
+	.info-box {
+		width: 100%;
+		padding: 0;
+	}
+
+	.info-box__wrap {
+		margin-bottom: 12%;
+	}
+
+	.info-box__subtitle {
+		font-size: 60px;
+		left: 20%;
+		top: 67%;
+	}
+
+	.info-box__title {
+		font-size: 170px;
+	}
+
+	.info-box__text {
+		font-size: 18px;
+		width: 79%;
+		text-align: center;
+		padding-left: 10.5%;
+		line-height: 21px;
+		margin-bottom: 9.5%;
+	}
+
+	.info-box__btn {
+		margin: 0 20%;
+		padding: 3.5% 17.5%;
+	}
+
+	.image-box {
+		display: none;
+	}
+}
