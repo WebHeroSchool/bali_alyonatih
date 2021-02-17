@@ -43,6 +43,8 @@ header {
 	text-decoration: none;
 	white-space: nowrap;
 	margin-right: 10%;
+	transition-property: color;
+	transition-duration: 0.5s;
 }
 
 .menu__item:hover {
@@ -104,6 +106,8 @@ main {
 	background-color: #d4bea3;
 	white-space: nowrap;
 	border: none;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
 }
 
 .info-box__btn:hover {
