@@ -45,6 +45,14 @@ header {
 	margin-right: 10%;
 }
 
+.menu__item:hover {
+	color: #D4DE84;
+}
+
+.menu__item:focus {
+	color: #91866d;
+}
+
 main {
 	display: flex;
 	align-items: center;
@@ -96,6 +104,17 @@ main {
 	background-color: #d4bea3;
 	white-space: nowrap;
 	border: none;
+}
+
+.info-box__btn:hover {
+	background-color: #AECE9F;
+	color: #0E2D0A;
+	cursor: pointer;
+}
+
+.info-box__btn:focus {
+	color: #91866d;
+	background-color: #7b6752;
 }
 
 .image-box {
